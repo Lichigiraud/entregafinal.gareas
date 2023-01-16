@@ -1,0 +1,114 @@
+header{
+    top: 0%;
+    width:auto;
+    height:auto;
+    background-color: rgb(146, 71, 0);
+    font-family: 'Marck Script', cursive;
+    color: black;
+    font-size: 20px;
+    .cajaIcono {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 1%;
+        .tituloIcono{
+            font-size: 40px;
+            margin-top: 14px;
+            display: inline-flex;
+        }
+        .navegador{
+            display:inline-flex;
+            ul{
+                li{
+                    margin-top: 3%;
+                    color: black;
+                    display: inline-flex;
+                    padding-right: 15px;
+                    a{
+                        color: black;
+                        display: inline-flex;
+                        background-color: rgb(182, 168, 157);
+                        padding: 4px 8px;
+                        border: 2px solid rgb(17, 15, 15);
+                        border-radius: 8px;
+                        text-decoration: none;
+                        &:hover {
+                            box-shadow: 15px 10px 20px -10px rgba(0,0,0,1);
+                            background-color: rgba(34, 32, 32, 0.671);
+                            transform: 0.3;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+// header{
+//     top: 0%;    
+//     width:auto;
+//     height:auto;
+//     background-color: rgb(146, 71, 0);   
+//     font-family: 'Marck Script', cursive;
+//     color: black;
+//     font-size: 20px;
+//     .cajaIcono {
+//         display: inline-flex;
+//         justify-content: space-between;
+//         .tituloIcono{
+//             display: inline-flex;
+//         }
+//         .navegador{
+//             display:inline-flex;
+//             .fa-bars{
+//                 display: none;
+//                 display: none;
+//             }
+//             ul{
+//                 position: right;
+//                 li{
+//                     color: black;
+//                     display: inline-flex;
+//                     text-align: right;
+//                     a{
+//                         color: black;
+//                         text-align: right;
+//                         display: inline-flex;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // .bajoImagen{
+    //     text-align: center;
+    //     margin: 0px;
+    // }
+    // .carousel-item{
+    //     position: 0 auto;
+    //     height: 100px;
+    // }

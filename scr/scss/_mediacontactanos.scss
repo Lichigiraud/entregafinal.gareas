@@ -1,0 +1,13 @@
+@media (max-width: 810px){
+    .formcompleto{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        .formsolo{
+            width: 100% !important;
+        }
+        .infocontacto {
+            width: 100% !important;
+        }
+    }
+}

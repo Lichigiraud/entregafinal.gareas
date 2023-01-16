@@ -1,0 +1,61 @@
+@media (max-width: 1200px){
+    .cajaPadre {
+        display: block !important;
+        align-items: center !important;
+        .tyd{
+            display: block;
+            align-items: center;
+            .tarjeta {
+                width: 400px;
+                margin: 40px;           
+                .tarjeta__titulo{
+                    margin: 10px 20px;
+                    font-size: 30px;
+                }
+                .tarjeta__precio{
+                    display: inline-flex;
+
+                }
+                .tarjeta__btn{
+                    display: inline-flex;
+                }
+            }
+            .descripcion{
+                font-size: 25px !important;
+                display: flex;
+                width: 50% !important;
+            }   
+        }        
+    }
+}
+
+@media (max-width: 720px){
+    .cajaPadre {
+        display: block !important;
+        .tyd{
+            display: inline-block !important;
+            align-items: center !important;
+            .tarjeta {
+                width: auto !important;
+                margin: 40px;           
+                .tarjeta__titulo{
+                    margin: 10px 20px;
+                    font-size: 30px;
+                }
+                .tarjeta__precio{
+                    display: inline-flex;
+
+                }
+                .tarjeta__btn{
+                    display: inline-flex;
+                }
+            }
+            .descripcion{
+                font-size: 25px !important;
+                width: 100% !important;
+                text-align: center !important;
+                padding: 0 20px;
+            }   
+        }        
+    }
+}
